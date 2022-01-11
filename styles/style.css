@@ -1,0 +1,31 @@
+/* popins fonts links */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Prompt&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+}
+
+/* common styles end */
+
+/* top Players styles */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+}
